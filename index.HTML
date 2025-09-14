@@ -12,24 +12,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Montserrat:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
 </head>
 <body>
-<!-- Navigation -->
 <nav id="navbar">
-<div class="container">
-<a class="logo" href="#">ND</a>
-<div class="nav-links">
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#experience">Experience</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</div>
-<button class="hamburger">
-<span></span>
-<span></span>
-<span></span>
-</button>
-</div>
+  <div class="container">
+    <a class="logo" href="#">ND</a>
+
+    <!-- Hamburger checkbox -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
 </nav>
+
 <!-- Hero Section -->
 <section id="hero">
 <div class="container">
@@ -215,7 +219,7 @@
 <div class="timeline-date">June 2025 - Present</div>
 <div class="timeline-content">
 <h3>Data Analyst Volunteer</h3>
-<h4>Cesno - Remote</h4>
+<h4>Censo - Remote</h4>
 <ul>
 <li>Analyzed and visualized data to support decision-making using Excel and Power BI</li>
 <li>Created interactive dashboards and visualizations for stakeholders</li>
@@ -256,8 +260,19 @@
 <a class="project-link" href="https://github.com/nimmagadda-dhanvi/Power-BI-Weather" target="_blank">View Project</a>
 </div>
 </div>
+<div class="project-info">
+<h3>Power BI Weather Dashboard</h3>
+<p>Real-time weather dashboard using Weather APIs with visuals for temperature, humidity, and rainfall across cities.</p>
+<div class="project-tags">
+<span>Power BI</span>
+<span>DAX</span>
+<span>API</span>
+</div>
+</div>
+</div>
 <div class="project-card">
-<div class="project-image" style="background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQHyT35ICEhegQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1724410433597?e=2147483647&v=beta&t=c2szOUw5qMe8jZxTxA3bQpqHanmH21-M8yoRpTn56pA'>
+<div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+<div class="project-overlay">
 <a class="project-link" href="https://github.com/nimmagadda-dhanvi/zepto-sql-case-study" target="_blank">View Project</a>
 </div>
 </div>
@@ -267,17 +282,7 @@
 <div class="project-tags">
 <span>SQL</span>
 <span>Data Analysis</span>
-<span>Database </span>
-</div>
-</div>
-</div>
-<div class="project-info">
-<h3>Power BI Weather Dashboard</h3>
-<p>Real-time weather dashboard using Weather APIs with visuals for temperature, humidity, and rainfall across cities.</p>
-<div class="project-tags">
-<span>Power BI</span>
-<span>DAX</span>
-<span>API</span>
+<span>Database  </span>
 </div>
 </div>
 </div>
